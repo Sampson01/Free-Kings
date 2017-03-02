@@ -1,0 +1,176 @@
+/*******************************
+GENERAL
+*******************************/
+
+body {
+	font-family: 'Arvo', sans-serif;
+}
+
+a {
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+img {
+  max-height: 100%;
+	max-width: 100%;
+}
+
+
+/*******************************
+PAGE:HOME
+*******************************/
+
+
+.background {
+  min-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  margin: auto; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+header {
+  display: flex;
+  height: 10em;
+  position: relative;
+  color: #000;
+	
+}
+
+.freekings {
+  text-align: center;
+  color: #ffd700;
+  margin-top: -20px;
+}
+
+
+  nav ul li {
+	display: inline-block;
+	text-decoration-color: #ffd700;
+	font-weight: 800;
+  margin-left: 95px;
+}
+
+nav: visited {
+	color: #45ddfd;
+}
+
+nav .selected, nav :hover {
+	color: #ffd700;
+}
+
+footer {
+	font-size: 1em;
+	text-align:center;
+  clear:both;
+	padding-top: 100%;
+	color: #ccc;
+  position: absolute;
+  right: 0;
+  bottom: 1;
+  left: 0;
+}
+
+
+/*******************************
+PAGE: ABOUT
+*******************************/
+
+.origin {
+	
+}
+
+.creators {
+	
+	
+}
+
+.origin,
+.creators {
+	margin-left: 50px;
+	margin-right: 20px;
+}
+
+/*******************************
+PAGE: WOMEN
+*******************************/
+
+.progress {
+	text-align:center;
+}
+
+
+
+/*******************************
+PAGE: MEN
+*******************************/
+
+
+/*******************************
+PAGE: YOUTH
+*******************************/
+
+
+/*******************************
+PAGE: CONTACT US
+*******************************/
+
+.contact {
+  text-align: center;
+  color: #ffd700;
+  margin-top: 0; 
+}
+
+.social-icon {
+  margin-top:50px;
+	margin-left: 70px;
+	margin-right: 70px;
+	display: inline-block;
+  width: 150%;
+  height: 100px;
+	border-right: 300px;
+}
+
+
+/*******************************
+Media Queries
+*******************************/
+
+@media (max-width: 568)
+
+}
+
+@media (max-width: 667px)
+  .background {
+    max-height: 380em;
+    padding-bottom: 200em;
+  }
+}
+
+@media (max-width: 736px)
+  .freekings {
+    border-top: none;
+    width: 100%;
+  }
+  nav ul li {
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
